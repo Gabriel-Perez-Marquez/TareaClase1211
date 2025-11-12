@@ -14,7 +14,7 @@ public class ProductoMapperManual {
             producto.getNombre(),
             producto.getDesc(),
             producto.getPvp(),
-            producto.getImagenes(),
+            producto.getImagenes().getFirst(),
             producto.getCategoria().getNombre()
         );
     }
